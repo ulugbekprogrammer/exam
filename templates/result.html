@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="center">
+        The result is: 
+    <h1>{{ans}}</h1>
+
+<a href="{% url 'home' %}" class="btn btn-success">Go Back</a>
+</div>
+{% endblock %}
